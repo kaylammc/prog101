@@ -13,7 +13,7 @@ speed_m_s <- distance_m * time_s
 acceleration_m_s2 <- speed_m_s / time_s
 # The acceleration is put in incorrectly because it's not saying (meters per
 # second squared) it's just an m and an s with a 2 next to it.
-force_N < mass * acceleration_m_s2
+force_N <- mass * acceleration_m_s2
 # Force is mass TIMES acceleration, not plus.
 
 # The energy density of market squid is 4850 joules per gram[1]. If a 225 kg
